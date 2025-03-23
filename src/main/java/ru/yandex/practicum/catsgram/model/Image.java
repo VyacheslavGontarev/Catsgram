@@ -10,11 +10,4 @@ public class Image {
     long postId;
     String originalFileName;
     String filePath;
-
-    public Image(Long id, long postId, String originalFileName, String filePath) {
-        this.id = id;
-        this.postId = postId;
-        this.originalFileName = originalFileName;
-        this.filePath = filePath;
-    }
 }
